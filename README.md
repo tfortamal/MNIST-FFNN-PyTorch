@@ -10,7 +10,7 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 ### Contents
 
-[**0. Getting started**](## 0. Getting started)
+[**0. Getting started**](##-0.-Getting-started)
 
 
 [**1. Visualize the data**](## 1. Visualize the data)
