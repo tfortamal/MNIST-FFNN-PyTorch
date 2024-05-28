@@ -10,9 +10,10 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 ### Contents
 
-[**0. Getting started**]()
+[**0. Getting started**]
 
-[**1. Visualize the data**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
+
+[**1. Visualize the data**]
 
 [**2. Train and Evaluate the Model**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
 
