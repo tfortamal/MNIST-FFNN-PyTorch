@@ -82,13 +82,13 @@ python3 mnist-cnn.py --epoch=50 --learningRate=0.001
 
 The results of the training will be stored in the **`run`** folder of the project directory.
 
-![Untitled](img/Untitled.png)
+![Untitled](img/train-loss.png)
 
-![Untitled](img/Untitled%201.png)
+![Untitled](img/test-results.png)
 
 ## 3. Folder Structure
 
-![Untitled](img/Untitled%202.png)
+![Untitled](img/folder.png)
 
 ## 4.  Neural Network Breakdown
 
