@@ -18,11 +18,11 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 [**3. Folder Structure**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
 
-[4. Neural Network Breakdown](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
+[**4. Neural Network Breakdown**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
 
-[5. Training loop breakdown](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
+[**5. Training loop breakdown**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
 
-[6. Saving the model](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
+[**6. Saving the model**](https://www.notion.so/MNIST-PyTorch-bef9d4f922ad46d6a02529cf1363db8d?pvs=21)
 
 ---
 
