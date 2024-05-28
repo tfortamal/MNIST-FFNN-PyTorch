@@ -10,7 +10,7 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 ### Contents
 
-[**0. Getting started**](##0.-Getting-started)
+[**0. Getting started**](0.Getting-startedd)
 
 
 [**1. Visualize the data**](## 1. Visualize the data)
@@ -27,7 +27,7 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 ---
 
-##0. Getting started
+##0.Getting started
 
 1. `mnist-cnn.py`: This file contains the network class and codes to load the training and testing data to train and evaluate the model.
 
