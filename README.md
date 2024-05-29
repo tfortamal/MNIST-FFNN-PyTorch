@@ -2,11 +2,13 @@
 
 ---
 
-This project implements a simple Feed Forward Convolutional Neural Network (CNN) with three fully connected layers and ReLU activation functions between them. Implementation using PyTorch to recognize handwritten digits from the [MNIST dataset](https://pypi.org/project/mnist/#files). 
+This project implements a simple Feed Forward Neural Network with three fully connected layers and ReLU activation functions between them. Implementation using PyTorch to recognize handwritten digits from the [MNIST dataset](https://pypi.org/project/mnist/#files). 
 
 The input images are 28x28 pixels. The output is a 10-dimensional vector representing the scores for each digit class.
 
 ---
+##Dataset Details
+The MNIST dataset 
 
 ### Contents
 
