@@ -31,7 +31,7 @@ The MNIST dataset
 
 ##0.Getting started
 
-1. `mnist-cnn.py`: This file contains the network class and codes to load the training and testing data to train and evaluate the model.
+1. `mnist-model.py`: This file contains the network class and codes to load the training and testing data to train and evaluate the model.
 
 2. `data-vis-mnist.py`: This file is used to visualize the MNIST dataset. Running this script first is recommended to verify and visualize the data before training the model.
 
@@ -70,7 +70,7 @@ This script will display sample images from the MNIST dataset to help you verify
 
 ## **2. Train and Evaluate the Model**
 
-To train and evaluate the CNN model, use the **`mnist-cnn.py`** script. It takes two optional arguments:
+To train and evaluate the model model, use the **`mnist-model.py`** script. It takes two optional arguments:
 
 - **`-epoch`**: Number of epochs to train the model (default: 20)
 - **`-learningRate`**: Learning rate for the optimizer (default: 0.01)
@@ -79,7 +79,7 @@ Example command to run the training and evaluation with custom arguments:
 
 ```bash
 bashCopy code
-python3 mnist-cnn.py --epoch=50 --learningRate=0.001
+python3 mnist-model.py --epoch=50 --learningRate=0.001
 
 ```
 
@@ -96,7 +96,7 @@ The results of the training will be stored in the **`run`** folder of the projec
 ## 4.  Neural Network Breakdown
 
 ```python
-class MyMnistCNN(nn.Module):
+class MyMnistmodel(nn.Module):
     def __init__(self):
         super().__init__()
         self.Matrix1 = nn.Linear(28**2,100)
@@ -262,10 +262,10 @@ This section records the current epoch and the loss value to track the training 
 ```python
 MODEL_PATH = Path(f'{runFolder}/models/')
 MODEL_PATH.mkdir(parents=True, exist_ok=True)
-MODEL_NAME = "mnist-cnn.pth"
+MODEL_NAME = "mnist-model.pth"
 MODEL_SAVE_PATH = MODEL_PATH / MODEL_NAME
 
-torch.save(cnn.state_dict(), MODEL_SAVE_PATH)
+torch.save(model.state_dict(), MODEL_SAVE_PATH)
 ```
 
 ### **Setting Up the Save Path**
@@ -283,7 +283,7 @@ MODEL_PATH.mkdir(parents=True, exist_ok=True)
 ### **Defining the Model File Name**
 
 ```python
-MODEL_NAME = "mnist-cnn.pth"
+MODEL_NAME = "mnist-model.pth"
 MODEL_SAVE_PATH = MODEL_PATH / MODEL_NAME
 ```
 
@@ -293,11 +293,11 @@ MODEL_SAVE_PATH = MODEL_PATH / MODEL_NAME
 ### **Saving the Model state dict**
 
 ```python
-torch.save(cnn.state_dict(), MODEL_SAVE_PATH)
+torch.save(model.state_dict(), MODEL_SAVE_PATH)
 ```
 
 1. **torch.save**: This is a PyTorch function used to save a serialized object to disk.
-2. **`cnn.state_dict()`**: This method retrieves a dictionary containing the model's parameters (weights and biases). **`cnn`** is the instance of your model (an instance of **`MyMnistCNN`**).
+2. **`model.state_dict()`**: This method retrieves a dictionary containing the model's parameters (weights and biases). **`model`** is the instance of your model (an instance of **`MyMnistModel`**).
 3. **MODEL_SAVE_PATH**: This specifies the path to the file where the model's parameters will be saved.
 
 ---
