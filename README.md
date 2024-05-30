@@ -8,8 +8,8 @@ The input images are 28x28 pixels. The output is a 10-dimensional vector represe
 
 ---
 ## Dataset Details
-The MNIST dataset 
-
+The MNIST database contains 28x28 pixel images of handwritten digits. 60,000 training images and 10,000 testing images.
+---
 ### Contents
 
 [**0.Getting started**](##0.Getting-started)
