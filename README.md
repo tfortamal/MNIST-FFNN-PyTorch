@@ -7,7 +7,7 @@ This project implements a simple Feed Forward Neural Network with three fully co
 The input images are 28x28 pixels. The output is a 10-dimensional vector representing the scores for each digit class.
 
 ---
-##Dataset Details
+## Dataset Details
 The MNIST dataset 
 
 ### Contents
