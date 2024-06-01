@@ -1,4 +1,4 @@
-# MNIST-PyTorch
+# Neural Network to Predict Handwritten digits using PyTorch 
 
 ---
 
